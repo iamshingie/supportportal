@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/userportal
+    username: dev
+    password: DevEnv01.
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hinernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
