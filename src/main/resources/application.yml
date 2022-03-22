@@ -1,8 +1,11 @@
+jwt:
+  secret: '[a-zA-Z0-9]./G7FXA(n?7ATp_t6q(dL<PgnVjU6pgi>X([h8Xs,zgLHda`0$8+gUld0UjYbCAX'
+
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/userportal
-    username: dev
-    password: DevEnv01.
+    username: root
+    password: Dekeg07.
   jpa:
     hibernate:
       ddl-auto: create
