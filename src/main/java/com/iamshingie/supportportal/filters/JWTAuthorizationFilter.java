@@ -20,7 +20,7 @@ import java.util.List;
 @Component
 public class JWTAuthorizationFilter extends OncePerRequestFilter {
 
-    private JWTTokenProvider jwtTokenProvider;
+    private final JWTTokenProvider jwtTokenProvider;
 
 
     public JWTAuthorizationFilter(JWTTokenProvider jwtTokenProvider) {

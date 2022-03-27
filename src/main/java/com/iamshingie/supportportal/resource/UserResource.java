@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserResource extends ExceptionHandling {
 
     @GetMapping("/home")
-    public String showUser() throws EmailExistException{
+    public String showUser() throws EmailExistException {
         throw new EmailExistException("This email address is already taken");
+//        return "applicationa works";
     }
 }
