@@ -29,5 +29,5 @@ public class User {
     private String role;
     private String[] authorities;
     private boolean isActive;
-    private boolean iaNotLocked;
+    private boolean isNotLocked;
 }
