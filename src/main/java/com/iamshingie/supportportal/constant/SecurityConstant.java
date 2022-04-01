@@ -6,7 +6,7 @@ public class SecurityConstant {
     public static final String JWT_TOKEN_HEADER = "Jwt-Token";
     public static final String TOKEN_CANNOT_BE_VERIFIED = "Token cannot tbe verified";
     public static final String ISSUER = "DEKIMBO";
-    public static final String AUDIENCE = "User Management Admin";
+    public static final String AUDIENCE = "IAMSCHINGIE";
     public static final String AUTHORITIES = "authorities";
     public static final String FORBIDDEN_MESSAGE = "You need to login to access this page";
     public static final String ACCESS_DENIED_MESSAGE = "You do not have permission to access this page";
